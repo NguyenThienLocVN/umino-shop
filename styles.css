@@ -1,4 +1,5 @@
 body { margin: 0; padding: 0; font-family: 'Jost'; }
+.container { margin: 0 auto; width: 80%; }
 ul, li { list-style-type: none; }
 a { text-decoration: none; color: #000; }
 /* Header */
@@ -23,3 +24,25 @@ header ul { display: flex; }
 .category a { background: #fff; padding: 10px 20px; position: absolute; bottom: 30px; border-radius: 30px;left: 50%; transform: translate(-50%, 0);transition: 0.5s;}
 .category a:hover { background: #000; color: #fff; border-radius: 0; }
 .category img:hover { transform: scale(1.1); }
+/* New Arrivals */
+.new-arrivals h2, .new-arrivals p { text-align: center; }
+.products { display: flex; justify-content: space-between;  }
+.product-item { width: 23%; position: relative; }
+.product-item img { width: 100%; }
+.sold-out { position: absolute; top: 10px; left: 10px; background: gray; color: #fff; padding: 5px 10px; border-radius: 30px; margin: 0;}
+.rating { display: flex; }
+.rating i { color: orange; }
+.price { color: red; }
+.old-price { color: gray; text-decoration: line-through; }
+.colors div { width: 25px; height: 25px; border-radius: 100%; padding: 1px; border: 1px solid #cecece; margin: 0 5px;}
+.red { background: red; }
+.green { background: green; }
+.orange { background: orange; }
+.colors { display: flex; }
+/* Footer */
+footer { display: flex; justify-content: space-between; padding: 50px 0;}
+.footer div { width: 32%; }
+.socials i { border: 2px solid; padding: 5px; border-radius: 100%; }
+.col-2 { display: flex; justify-content: space-between; }
+.subscribe input { padding: 15px; border-radius: 30px; border: 1px solid gray }
+.subscribe button { background: #000; color: #fff; padding: 15px; border-radius: 30px; }
